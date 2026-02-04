@@ -193,7 +193,7 @@ $(document).ready(function () {
                         </div>
                         <h6 class="card-subtitle mb-2 text-muted">${category}</h6>
                         <p class="card-text">${description}</p>
-                        <button class="btn btn-outline-primary btn-sm w-100">Add to Cart</button>
+                        <button class="btn btn-outline-primary btn-sm w-100 btn-add-cart">Add to Cart</button>
                     </div>
                 </div>
             </div>
@@ -346,6 +346,11 @@ $(document).ready(function () {
         console.log("Dish:", dishName);
 
         alert(message);
+    });
+
+    // Handle 'Add to Cart' Click
+    $(document).on('click', '.btn-add-cart', function () {
+        alert("Add to cart successfully");
     });
 
 
