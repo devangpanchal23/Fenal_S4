@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DineXpress - About Us</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg border-bottom shadow-sm sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">🍽️ DineXpress</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="menu.html">Menu & Search</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="feedback.html">Feedback</a></li>
+                    <li class="nav-item guest-only"><a class="nav-link" href="register.html">Register</a></li>
+                    <li class="nav-item guest-only"><a class="nav-link" href="login.html">Login</a></li>
+                    <li class="nav-item dropdown user-only d-none">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            👤 <span id="navUserName">User</span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                            <li>
+                                <h6 class="dropdown-header" id="navUserEmail">email@example.com</h6>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item text-danger" href="#" id="logoutBtn">Logout</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="d-flex align-items-center">
+                    <label for="themeSelector" class="me-2">Theme:</label>
+                    <select id="themeSelector" class="form-select form-select-sm" style="width: auto;">
+                        <option value="light">Light</option>
+                        <option value="dark-theme">Dark</option>
+                        <option value="blue-theme">Blue</option>
+                        <option value="green-theme">Green</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container main-content">
+        <div class="text-center mb-5">
+            <h1 class="display-4 fw-bold">About DineXpress</h1>
+            <p class="lead text-muted">A blend of tradition and modern dining.</p>
+        </div>
+
+        <div class="row align-items-center mb-5">
+            <div class="col-md-6 order-md-2">
+                <div class="p-4 rounded-3 border h-100 d-flex flex-column justify-content-center text-center"
+                    style="background-color: var(--card-bg);">
+                    <span style="font-size: 5rem;">🥗</span>
+                </div>
+            </div>
+            <div class="col-md-6 order-md-1">
+                <h2 class="fw-bold">Our Story</h2>
+                <p>Founded with a passion for good food and great company, DineXpress started as a small family dream.
+                    Over the years, we have grown into a beloved establishment known for combining authentic flavors
+                    with a modern dining experience. Our journey is fueled by the smiles of our satisfied customers.</p>
+                <p>We believe that food is not just sustenance, but an experience. That's why we source the freshest
+                    ingredients from local farmers and markets to ensure every dish we serve bursts with flavor.</p>
+            </div>
+        </div>
+
+        <div class="row align-items-center mb-5">
+            <div class="col-md-6">
+                <div class="p-4 rounded-3 border h-100 d-flex flex-column justify-content-center text-center"
+                    style="background-color: var(--card-bg);">
+                    <span style="font-size: 5rem;">🧑‍🍳</span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h2 class="fw-bold">Our Mission</h2>
+                <p>At DineXpress, our mission is simple: to provide an unforgettable dining experience that delights the
+                    senses. we strive to:</p>
+                <ul>
+                    <li>Serve high-quality, delicious meals prepared with care.</li>
+                    <li>Create a welcoming atmosphere where everyone feels at home.</li>
+                    <li>Innovate our menu to bring new and exciting flavors to your table.</li>
+                    <li>Support our community through sustainable practices.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container py-5 text-center rounded-3 border" style="background-color: var(--card-bg);">
+            <h2 class="fw-bold mb-4">Meet Our Master Chefs</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-4 mb-3">
+                    <div class="card h-100 border-0 shadow-sm" style="background: transparent;">
+                        <div class="card-body">
+                            <div class="mb-3" style="font-size: 4rem;">👨‍🍳</div>
+                            <h5 class="card-title">Chef Antonio</h5>
+                            <p class="card-text text-muted">Head Chef</p>
+                            <p class="card-text small">With 20 years of experience in Italian cuisine, Chef Antonio
+                                brings passion to every pasta plate.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card h-100 border-0 shadow-sm" style="background: transparent;">
+                        <div class="card-body">
+                            <div class="mb-3" style="font-size: 4rem;">👩‍🍳</div>
+                            <h5 class="card-title">Chef Maria</h5>
+                            <p class="card-text text-muted">Pastry Chef</p>
+                            <p class="card-text small">Maria's desserts are legendary. Her precision and creativity make
+                                every sweet treat a masterpiece.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 DineXpress. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+    <item>
+        <id>1</id>
+        <name>Classic Burger</name>
+        <category>Burgers</category>
+        <price>8.99</price>
+        <image>https://placehold.co/300x200?text=Classic+Burger</image>
+        <description>Juicy beef patty with fresh lettuce, tomato, and cheese.</description>
+        <city>Surat</city>
+        <area>Adajan</area>
+        <restaurant>DineXpress Main</restaurant>
+    </item>
+    <item>
+        <id>2</id>
+        <name>Cheese Pizza</name>
+        <category>Pizza</category>
+        <price>12.50</price>
+        <image>https://placehold.co/300x200?text=Cheese+Pizza</image>
+        <description>Mozzarella cheese and tomato sauce on a crispy crust.</description>
+        <city>Surat</city>
+        <area>Adajan</area>
+        <restaurant>DineXpress Main</restaurant>
+    </item>
+    <item>
+        <id>3</id>
+        <name>Caesar Salad</name>
+        <category>Salads</category>
+        <price>7.99</price>
+        <image>https://placehold.co/300x200?text=Caesar+Salad</image>
+        <description>Romaine lettuce, croutons, parmesan cheese, and caesar dressing.</description>
+        <city>Surat</city>
+        <area>Vesu</area>
+        <restaurant>Healthy Bites</restaurant>
+    </item>
+    <item>
+        <id>4</id>
+        <name>Spaghetti Bolognese</name>
+        <category>Pasta</category>
+        <price>14.00</price>
+        <image>https://placehold.co/300x200?text=Spaghetti</image>
+        <description>Traditional italian pasta with rich meat sauce.</description>
+        <city>Surat</city>
+        <area>Vesu</area>
+        <restaurant>Healthy Bites</restaurant>
+    </item>
+    <item>
+        <id>5</id>
+        <name>Chocolate Cake</name>
+        <category>Dessert</category>
+        <price>5.50</price>
+        <image>https://placehold.co/300x200?text=Chocolate+Cake</image>
+        <description>Rich chocolate layer cake with creamy frosting.</description>
+        <city>Ahmedabad</city>
+        <area>Navrangpura</area>
+        <restaurant>Sweet Treats</restaurant>
+    </item>
+    <item>
+        <id>6</id>
+        <name>Iced Coffee</name>
+        <category>Beverages</category>
+        <price>3.99</price>
+        <image>https://placehold.co/300x200?text=Iced+Coffee</image>
+        <description>Cold brew coffee with a splash of milk.</description>
+        <city>Ahmedabad</city>
+        <area>Navrangpura</area>
+        <restaurant>Sweet Treats</restaurant>
+    </item>
+    <item>
+        <id>7</id>
+        <name>Veggie Wrap</name>
+        <category>Wraps</category>
+        <price>6.99</price>
+        <image>https://placehold.co/300x200?text=Veggie+Wrap</image>
+        <description>Grilled vegetables wrapped in a tortilla.</description>
+        <city>Surat</city>
+        <area>Adajan</area>
+        <restaurant>DineXpress Main</restaurant>
+    </item>
+    <item>
+        <id>8</id>
+        <name>Chicken Wings</name>
+        <category>Appetizers</category>
+        <price>9.99</price>
+        <image>https://placehold.co/300x200?text=Chicken+Wings</image>
+        <description>Spicy buffalo wings served with ranch dip.</description>
+        <city>Surat</city>
+        <area>Adajan</area>
+        <restaurant>DineXpress Main</restaurant>
+    </item>
+    <!-- New Items for Avadh Dining Hall -->
+    <item>
+        <id>9</id>
+        <name>Gujarati Thali</name>
+        <category>Thali</category>
+        <price>15.00</price>
+        <image>https://placehold.co/300x200?text=Gujarati+Thali</image>
+        <description>A complete meal with roti, sabzi, dal, rice, and sweet.</description>
+        <city>Surat</city>
+        <area>Varachha</area>
+        <restaurant>Avadh Dining Hall</restaurant>
+    </item>
+    <item>
+        <id>10</id>
+        <name>Undhiyu</name>
+        <category>Main Course</category>
+        <price>10.00</price>
+        <image>https://placehold.co/300x200?text=Undhiyu</image>
+        <description>A traditional Gujarati mixed vegetable dish.</description>
+        <city>Surat</city>
+        <area>Varachha</area>
+        <restaurant>Avadh Dining Hall</restaurant>
+    </item>
+    <item>
+        <id>11</id>
+        <name>Dhokla</name>
+        <category>Snacks</category>
+        <price>5.00</price>
+        <image>https://placehold.co/300x200?text=Dhokla</image>
+        <description>Steamed fermented rice and chickpea batter.</description>
+        <city>Surat</city>
+        <area>Varachha</area>
+        <restaurant>Avadh Dining Hall</restaurant>
+    </item>
+</menu>
